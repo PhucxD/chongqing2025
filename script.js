@@ -22,7 +22,7 @@ const attractions = [
         name: "南山一棵樹", 
         description: "俯瞰重慶夜景的最佳地點。", 
         itinerary: "登南山一棵樹觀景台，俯瞰重慶璀璨夜景，拍攝城市全景照片。",
-        image: "EF273ACA5067EEC75ADBE189DAA_9F2EB277_C4DEB.png" 
+        image: "https://pxzx.cqu.edu.cn/__local/2/0D/30/EF273ACA5067EEC75ADBE189DAA_9F2EB277_C4DEB.png" 
     },
     { 
         name: "長江索道", 
