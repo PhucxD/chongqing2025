@@ -1,0 +1,36 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-image: url('https://www.ourchinastory.com/images/cover/travel-leisure/2021/05/horizontal/%E9%87%8D%E6%85%B6%E4%BE%86%E7%A6%8F%E5%A3%AB%E5%BB%A3%E5%A0%B4_x2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.attraction-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.attraction-card:hover {
+    transform: scale(1.05);
+}
+
+.attraction-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.attraction-card input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.selected {
+    border: 2px solid #3182ce;
+    background-color: rgba(230, 243, 255, 0.95);
+}
